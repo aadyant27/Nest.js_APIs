@@ -12,7 +12,7 @@ import { Report } from './reports/report.entity';
       type: 'sqlite', // Specifies which type of DB we use with TypeORM
       database: 'db.sqlite', // Name of the DB
       entities: [User, Report], // List out all entities/things we want to store inside our app.
-      synchronize: true,
+      synchronize: true, //true => we don't have to do migration(set 'true' only in development env)
     }),
     UsersModule,
     ReportsModule,
