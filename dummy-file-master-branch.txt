@@ -1,3 +1,4 @@
 Hi from master branch.
 Changes made by slave in master file
 Master made more changes. 
+More changes by slave.
